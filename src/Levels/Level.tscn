@@ -1,0 +1,65 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://src/Sprites/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/Levels/platforme.tscn" type="PackedScene" id=2]
+[ext_resource path="res://src/Levels/platform2.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/Levels/platform3.tscn" type="PackedScene" id=4]
+
+[node name="Level" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 531 )
+
+[node name="platform" parent="." instance=ExtResource( 2 )]
+position = Vector2( 120, 552 )
+
+[node name="platform6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 264, 552 )
+
+[node name="platform7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 312, 552 )
+
+[node name="platform3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 72, 552 )
+
+[node name="platform5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 24, 552 )
+
+[node name="platform4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 216, 552 )
+
+[node name="platform2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 168, 552 )
+
+[node name="platforme2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 24, 600 )
+
+[node name="platforme3" parent="." instance=ExtResource( 3 )]
+position = Vector2( 72, 600 )
+
+[node name="platforme4" parent="." instance=ExtResource( 3 )]
+position = Vector2( 120, 600 )
+
+[node name="platforme5" parent="." instance=ExtResource( 3 )]
+position = Vector2( 168, 600 )
+
+[node name="platforme6" parent="." instance=ExtResource( 3 )]
+position = Vector2( 216, 600 )
+
+[node name="platforme7" parent="." instance=ExtResource( 3 )]
+position = Vector2( 264, 600 )
+
+[node name="platforme8" parent="." instance=ExtResource( 3 )]
+position = Vector2( 312, 600 )
+
+[node name="platform8" parent="." instance=ExtResource( 4 )]
+position = Vector2( 402, 516 )
+
+[node name="platform9" parent="." instance=ExtResource( 4 )]
+position = Vector2( 492, 486 )
+
+[node name="platform10" parent="." instance=ExtResource( 4 )]
+position = Vector2( 576, 522 )
+
+[node name="platform11" parent="." instance=ExtResource( 4 )]
+position = Vector2( 522, 570 )
